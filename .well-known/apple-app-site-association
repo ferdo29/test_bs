@@ -1,0 +1,22 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "FD56993L66.com.birzhasng",
+                "paths": [
+                    "/aa/*",
+                    "/aa/ads/*"
+                    "/aa/orders/*"
+                    "/aa/hot/*"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+          "apps": [ "FD56993L66.com.birzhasng" ]
+       },
+    "appclips": {
+           "apps": ["FD56993L66.com.birzhasng"]
+    }
+}
