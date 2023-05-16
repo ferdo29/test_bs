@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         body { padding-top: 50px; }
+        a {
+            width: 200px;
+            height: 40px;
+            background: #ff9100;
+            border-radius: 10px;
+            line-height: 2.5rem;
+        }
         .rows {
             display: flex;
             flex-wrap: wrap;
@@ -15,14 +22,8 @@
             border-bottom: 1px #333 solid;
         }
         @media only screen and (max-width: 600px) {
-            .btn {
-                width: calc(50% - 20px);
-            }
         }
         @media only screen and (min-width: 1200px) {
-            .btn {
-                width: 200px;
-            }
         }
     </style>
 </head>
@@ -31,27 +32,73 @@
 <div class="container">
 
     <div class="container text-center">
-        
+        <h2>links</h2>
         <div class="rows">
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/vivoz-kirpichnogo-boya-1843-zakaz">Order</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/vivoz-kirpichnogo-boya-1914-ad">Ad</a></div>
+            <a href="https://test.birzha-sng.ru/other/referer/vivoz-kirpichnogo-boya-1843-zakaz">Order</a>
+            <a href="https://test.birzha-sng.ru/other/referer/vivoz-kirpichnogo-boya-1914-ad">Ad</a>
         </div>
         <div class="rows">
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/ads">Ads</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/ads-map">AdsMap</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/hot">Hot</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/orders">OrdersAll</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/orders-map">OrdersMap</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/cabinet">Cabinet</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/my-ads">MyAds</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/my-orders">MyOrders</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/subscriptions">Subscriptions</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/search-history">SearchHistory</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/setting">Setting</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/favorites">Favorites</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/reviews">Reviews</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/hints">Hints</a></div>
-            <div class="btn btn-warning"><a href="https://test.birzha-sng.ru/other/referer/business">Business</a></div>
+           <a href="https://test.birzha-sng.ru/other/referer/ads">Ads</a>
+           <a href="https://test.birzha-sng.ru/other/referer/ads-map">AdsMap</a>
+           <a href="https://test.birzha-sng.ru/other/referer/hot">Hot</a>
+           <a href="https://test.birzha-sng.ru/other/referer/orders">OrdersAll</a>
+           <a href="https://test.birzha-sng.ru/other/referer/orders-map">OrdersMap</a>
+           <a href="https://test.birzha-sng.ru/other/referer/cabinet">Cabinet</a>
+           <a href="https://test.birzha-sng.ru/other/referer/my-ads">MyAds</a>
+           <a href="https://test.birzha-sng.ru/other/referer/my-orders">MyOrders</a>
+           <a href="https://test.birzha-sng.ru/other/referer/subscriptions">Subscriptions</a>
+           <a href="https://test.birzha-sng.ru/other/referer/search-history">SearchHistory</a>
+           <a href="https://test.birzha-sng.ru/other/referer/setting">Setting</a>
+           <a href="https://test.birzha-sng.ru/other/referer/favorites">Favorites</a>
+           <a href="https://test.birzha-sng.ru/other/referer/reviews">Reviews</a>
+           <a href="https://test.birzha-sng.ru/other/referer/hints">Hints</a>
+           <a href="https://test.birzha-sng.ru/other/referer/business">Business</a>
+        </div>
+
+        <h2>Android - deep links</h2>
+        <div class="rows">
+            <a href="birzhasng://vivoz-kirpichnogo-boya-1843-zakaz">Order</a>
+            <a href="birzhasng://vivoz-kirpichnogo-boya-1914-ad">Ad</a>
+        </div>
+        <div class="rows">
+            <a href="birzhasng://ads">Ads</a>
+            <a href="birzhasng://ads-map">AdsMap</a>
+            <a href="birzhasng://hot">Hot</a>
+            <a href="birzhasng://orders">OrdersAll</a>
+            <a href="birzhasng://orders-map">OrdersMap</a>
+            <a href="birzhasng://cabinet">Cabinet</a>
+            <a href="birzhasng://my-ads">MyAds</a>
+            <a href="birzhasng://my-orders">MyOrders</a>
+            <a href="birzhasng://subscriptions">Subscriptions</a>
+            <a href="birzhasng://search-history">SearchHistory</a>
+            <a href="birzhasng://setting">Setting</a>
+            <a href="birzhasng://favorites">Favorites</a>
+            <a href="birzhasng://reviews">Reviews</a>
+            <a href="birzhasng://hints">Hints</a>
+            <a href="birzhasng://business">Business</a>
+        </div>
+
+        <h2>ios - deep links</h2>
+        <div class="rows">
+            <a href="birzhasng://vivoz-kirpichnogo-boya-1843-zakaz">Order</a>
+            <a href="birzhasng://vivoz-kirpichnogo-boya-1914-ad">Ad</a>
+        </div>
+        <div class="rows">
+            <a href="birzhasng://ads">Ads</a>
+            <a href="birzhasng://ads-map">AdsMap</a>
+            <a href="birzhasng://hot">Hot</a>
+            <a href="birzhasng://orders">OrdersAll</a>
+            <a href="birzhasng://orders-map">OrdersMap</a>
+            <a href="birzhasng://cabinet">Cabinet</a>
+            <a href="birzhasng://my-ads">MyAds</a>
+            <a href="birzhasng://my-orders">MyOrders</a>
+            <a href="birzhasng://subscriptions">Subscriptions</a>
+            <a href="birzhasng://search-history">SearchHistory</a>
+            <a href="birzhasng://setting">Setting</a>
+            <a href="birzhasng://favorites">Favorites</a>
+            <a href="birzhasng://reviews">Reviews</a>
+            <a href="birzhasng://hints">Hints</a>
+            <a href="birzhasng://business">Business</a>
         </div>
     </div>
 </div>
